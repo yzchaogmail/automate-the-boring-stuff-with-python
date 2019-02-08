@@ -9,6 +9,7 @@ logging.basicConfig(filename='debuglog.txt',level=logging.DEBUG,format='%(asctim
 
 sp.Popen('notepad.exe')
 sp.Popen(['notepad.exe','temp.txt'])
+
 logging.debug('before----------------')
 sp.Popen(['start','start-hell0.txt'],shell=True)
 logging.debug('after----------------')
